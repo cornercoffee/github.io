@@ -1,0 +1,197 @@
+@charset "UTF-8";
+.header{
+height: 50%;
+	width:100%;
+/*	position:relative;*/
+}
+.buttonsub2 {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.buttonsub2:hover {
+    animation:shake .4s 1;
+        animation-delay:.4s;
+       transform:rotate(0) scale(1.1);}
+#boxx{
+    font-variant: small-caps;
+    text-align: left;
+}
+.table2 {
+    font-variant: small-caps;
+    font-size: 18px;
+    text-align: center;
+}
+.table6 input:hover{
+	   padding: 0px 5px;
+      
+}
+
+.table6 td:hover{
+	 font-weight: 100;
+}
+
+.buttonsub {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.cform {
+    font-variant: small-caps;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.searchform {
+    font-size: 15px;
+}
+
+.td3 {
+    font-size: 15px;
+    color: brown;
+}
+
+.table1 {
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+    background-image: url("product2.jpg");
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 70px;
+}
+
+footer {
+    background-color: saddlebrown;
+    margin: 20px 0px 0px -10px;
+    padding: 10px;
+}
+
+body {
+    margin: 10px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    background: url(index.php);
+    background-size: cover;
+    background-color: white;
+}
+
+.box {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.box1 {
+        width: 30%;
+        position: absolute;
+    }
+
+.box3 {
+        border: 1px solid red;
+        position: absolute;
+    }
+
+.box2 {
+        text-align: center;
+        position: absolute;
+        /*    top: 50%;*/
+        /*    left: 50%;*/
+        transform: translate(-50%, -50%);
+        width: 400px;
+        padding: 40px;
+        background: white;
+        /*    box-sizing: border-box;*/
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+        border-radius: 10px;
+        /*    font-size: 10pt;*/
+    }
+
+    .box h2 {
+        margin: 0px 0px 20px;
+        padding: 5px;
+        color: #fff;
+        color: black;
+        text-align: center;
+        bottom: 100px;
+    }
+
+    .box .inputBox {
+        position: relative;
+    }
+
+    .box .inputBox input {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+        background: transparent;
+      
+       
+    }
+    .box .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+        background: transparent;
+      
+       
+    }
+    .box .inputBox label {
+        
+        position: absolute;
+        bottom: 50px;
+        left: 0px;
+        padding: 10px 0;
+        font-size: 13px;
+        color: black;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+.box input:hover{
+	 font-weight: 100;
+	padding: 0px 5px;
+}
+
+    .box button[type="submit"] {
+		width: 100%;
+
+  
+      
+        font-variant: small-caps;
+        background: transparent;
+        border: none;
+	  outline: none;
+        color: #fff;
+        margin: 0px 0px 10px;
+        background-color: orange;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+ 
